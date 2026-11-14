@@ -173,3 +173,64 @@ footer{background:#17382d;color:white;padding:48px 0 22px}
 html[dir=rtl] body{text-align:right}html[dir=rtl] h1,html[dir=rtl] h2{font-family:"Noto Naskh Arabic",serif;line-height:1.5;letter-spacing:0}
 html[dir=rtl] .hero-layout{direction:rtl}html[dir=rtl] .section-intro{direction:rtl}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* V6: narrative and source-backed scholarship */
+.brand-mark{border:0;width:auto;min-width:39px;height:auto;border-radius:0;font-size:37px;line-height:1;color:#2e624a}
+.brand-name{font-size:15px;letter-spacing:.3px}
+.story-feature{background:#f9f7f1;padding:90px 0}
+.story-feature-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:center}
+.story-photo{height:510px;overflow:hidden;position:relative;border-radius:9px;background:#dbe7db}
+.story-photo img{width:100%;height:100%;object-fit:cover;object-position:center 26%;filter:saturate(.85)}
+.story-photo-label{position:absolute;left:0;bottom:0;right:0;padding:24px 20px 18px;color:white;background:linear-gradient(transparent,#16392dd9);font-size:10px;font-weight:700;letter-spacing:1.4px}
+.story-feature h2{font-size:clamp(34px,3.3vw,48px);margin:0 0 24px}
+.story-feature-copy>p{color:#576c60;font-size:17px;line-height:1.85}
+.story-attribution{font-size:11px!important;color:#839184!important;margin:25px 0 0;line-height:1.6!important}
+.story-attribution a{color:#426d52}
+.publications{background:#fff}
+.publication-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:21px;margin:45px 0 0}
+.publication{border:1px solid #dce6dc;background:white;min-width:0}
+.publication-cover{height:290px;padding:28px 25px;display:flex;flex-direction:column;justify-content:space-between;text-align:left}
+.publication-cover span{font-size:10px;letter-spacing:1.5px;font-weight:700;opacity:.7}
+.publication-cover strong{font:normal 30px/1.3 "Libre Baskerville",Georgia,serif}
+.publication-cover small{font-size:10px;line-height:1.45;opacity:.66}
+.cover-a{background:#dce8dd;color:#214637}.cover-b{background:#f0eadc;color:#4e4b3e}.cover-c{background:#dae4e8;color:#264653}
+.publication-copy{padding:23px}
+.publication-copy h3{font:normal 19px/1.4 "Libre Baskerville",Georgia,serif;color:var(--forest);margin:10px 0}
+.publication-copy p{font-size:14px;line-height:1.7;color:#67776c}
+.leadership-layout{row-gap:54px}
+.impact-evidence{grid-column:1/-1;border-top:1px solid #68907a;padding-top:29px}
+.impact-evidence-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
+.impact-evidence-grid a{color:white;text-decoration:none;border:1px solid #729c83;padding:24px;display:flex;flex-direction:column;gap:12px}
+.impact-evidence-grid a:hover{background:#315d49}
+.impact-evidence-grid strong{font:normal 32px Georgia,serif}
+.impact-evidence-grid span{font-size:13px;line-height:1.55;color:#d1e3d5}
+html[dir=rtl] .story-feature h2,html[dir=rtl] .publication-cover strong{font-family:"Noto Naskh Arabic",serif;line-height:1.5}
+@media(max-width:900px){
+.story-feature{padding:60px 0}
+.story-feature-layout{grid-template-columns:1fr 1fr;gap:29px}
+.story-photo{height:410px}
+.publication-grid{gap:12px}
+.publication-cover{height:240px;padding:18px}
+.publication-cover strong{font-size:23px}
+}
+@media(max-width:740px){
+.brand-mark{font-size:31px;min-width:27px}
+.brand-name{font-size:12px}
+.story-feature{padding:55px 0}
+.story-feature-layout{grid-template-columns:1fr;gap:24px}
+.story-photo{height:320px;max-width:490px;width:100%}
+.story-feature h2{font-size:35px}
+.story-feature-copy>p{font-size:15px;line-height:1.7}
+.publication-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:16px;margin-top:27px}
+.publication{flex:0 0 min(77vw,300px);scroll-snap-align:start}
+.publication-cover{height:210px;padding:19px}
+.publication-cover strong{font-size:24px}
+.publication-copy{padding:17px}
+.publication-copy h3{font-size:17px}
+.publication-copy p{font-size:13px}
+.impact-evidence-grid{grid-template-columns:1fr;gap:9px}
+.impact-evidence{padding-top:23px}
+.impact-evidence-grid a{padding:17px;display:grid;grid-template-columns:85px 1fr;align-items:center}
+.impact-evidence-grid strong{font-size:23px}
+.impact-evidence-grid span{font-size:12px}
+}
