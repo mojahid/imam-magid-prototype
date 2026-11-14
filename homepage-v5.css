@@ -266,3 +266,41 @@ html[dir=rtl] .brand-wordmark small{text-align:right}
 .brand-wordmark strong{font-size:10px}
 .brand-wordmark small{font-size:12px}
 }
+
+
+/* Scholarship V7: editorial split with quiet, legible navigation */
+.teachings-refined{background:#204c40;color:#fff}
+.scholarship-head{max-width:760px;margin-bottom:38px}
+.scholarship-head h2{color:#fff;margin:0 0 18px}
+.scholarship-head>p{font-size:17px;max-width:610px;line-height:1.78;color:#d1e4d7;margin:0}
+.scholarship-content{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:stretch}
+.scholarship-feature{background:#f4f1e7;color:#204c40;min-height:380px;text-decoration:none;padding:43px 39px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;border-radius:5px;transition:background .2s}
+.scholarship-feature:hover{background:#fffaf0}
+.scholarship-feature-label{font-size:10px;letter-spacing:1.5px;font-weight:700;color:#557466}
+.scholarship-feature-title{font:normal clamp(27px,2.7vw,39px)/1.35 "Libre Baskerville",Georgia,serif;letter-spacing:-.6px;margin-top:32px}
+.scholarship-feature-description{color:#5f7467;font-size:15px;line-height:1.8;margin-top:23px;max-width:370px}
+.scholarship-feature-action{border-bottom:1px solid #6e9180;padding-bottom:5px;font-size:14px;font-weight:700;margin-top:auto;padding-top:24px}
+.scholarship-topics{border-top:1px solid #739485}
+.scholarship-row{display:grid;grid-template-columns:30px 1fr 22px;align-items:center;gap:17px;min-height:94px;padding:17px 0;text-decoration:none;color:#fff;border-bottom:1px solid #739485}
+.scholarship-number{font-size:11px;letter-spacing:1px;color:#a9c9b8;align-self:start;padding-top:5px}
+.scholarship-row-text{display:flex;flex-direction:column;gap:4px}
+.scholarship-row-text strong{font-size:18px;line-height:1.35;font-weight:600}
+.scholarship-row-text small{font-size:13px;color:#bdd7c8;line-height:1.55}
+.scholarship-chevron{font-family:Arial,sans-serif;font-size:17px;color:#d0e2d6;line-height:1}
+.scholarship-row:hover .scholarship-row-text strong{color:#e0edc7}
+html[dir=rtl] .scholarship-content{direction:rtl}
+html[dir=rtl] .scholarship-feature-title{font-family:"Noto Naskh Arabic",serif;line-height:1.55}
+@media(max-width:900px){.scholarship-content{gap:22px}.scholarship-feature{padding:32px 27px;min-height:330px}.scholarship-row{min-height:88px}}
+@media(max-width:740px){
+.scholarship-head{margin-bottom:25px}
+.scholarship-head>p{font-size:15px;line-height:1.7}
+.scholarship-content{grid-template-columns:1fr;gap:24px}
+.scholarship-feature{padding:28px 26px;min-height:0}
+.scholarship-feature-title{font-size:29px;margin-top:20px;line-height:1.35}
+.scholarship-feature-description{font-size:14px;margin-top:15px}
+.scholarship-feature-action{margin-top:12px;font-size:13px}
+.scholarship-row{min-height:80px;gap:12px;grid-template-columns:24px 1fr 18px;padding:14px 0}
+.scholarship-row-text strong{font-size:16px}
+.scholarship-row-text small{font-size:12px}
+.scholarship-number{font-size:10px}
+}
