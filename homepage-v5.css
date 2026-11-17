@@ -304,3 +304,10 @@ html[dir=rtl] .scholarship-feature-title{font-family:"Noto Naskh Arabic",serif;l
 .scholarship-row-text small{font-size:12px}
 .scholarship-number{font-size:10px}
 }
+
+/* Reliable drawn arrows; avoids iOS blue emoji presentation */
+.scholarship-chevron{display:block;position:relative;width:20px;height:20px;font-size:0!important}
+.scholarship-chevron::before{content:"";position:absolute;top:3px;right:1px;width:10px;height:10px;border-top:1.7px solid currentColor;border-right:1.7px solid currentColor}
+.scholarship-chevron::after{content:"";position:absolute;width:17px;height:1.7px;right:3px;top:12px;background:currentColor;transform:rotate(-45deg);transform-origin:right center}
+html[dir=rtl] .scholarship-chevron{transform:scaleX(-1)}
+.scholarship-row:focus-visible{outline:2px solid #d6e9d2;outline-offset:4px}
