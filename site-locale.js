@@ -26,8 +26,8 @@
     "His Life":"السيرة","Media":"المرئيات",
     "English":"الإنجليزية",
     "Return to homepage":"العودة إلى الصفحة الرئيسية",
-    "Back to Home ↗":"العودة إلى الرئيسية ←","← Return to homepage":"← العودة إلى الرئيسية","← Home":"← الرئيسية",
-    "Open the collection ↗":"تصفح المجموعة ↗",
+    "Back to Home ↗︎":"العودة إلى الرئيسية ←","← Return to homepage":"← العودة إلى الرئيسية","← Home":"← الرئيسية",
+    "Open the collection ↗︎":"تصفح المجموعة ↗︎",
     "Explore his teachings":"استكشف دروسه",
     "Lectures, interviews and published works from their original sources.":"محاضرات ومقابلات ومؤلفات من مصادرها الأصلية.",
     "Explore his teachings":"تصفح دروسه","CHAPTERS":"الفصول",
@@ -37,9 +37,9 @@
     "07 · The Living Archive":"٠٧ · الأرشيف الحي",
     "Research sources":"مصادر البحث",
     "Public materials used to prepare this concept. Additional verification and approval are required before an official launch.":"مواد منشورة استُخدمت لإعداد هذا التصور، ولا يزال التحقق والموافقة مطلوبين قبل الإطلاق الرسمي.",
-    "First-person source · Georgetown ↗":"المصدر الأصلي · جورجتاون ↗",
-    "ADAMS Center profile ↗":"سيرة مركز آدامز ↗",
-    "Religions for Peace profile ↗":"السيرة في أديان من أجل السلام ↗",
+    "First-person source · Georgetown ↗︎":"المصدر الأصلي · جورجتاون ↗︎",
+    "ADAMS Center profile ↗︎":"سيرة مركز آدامز ↗︎",
+    "Religions for Peace profile ↗︎":"السيرة في أديان من أجل السلام ↗︎",
     "Georgetown Berkley Center — Interview (January 2022)":"مركز بيركلي بجامعة جورجتاون — مقابلة (يناير ٢٠٢٢)",
     "ADAMS Center — Resident Scholar profile":"مركز آدامز — سيرة العالم المقيم",
     "Religions for Peace — Leadership profile":"أديان من أجل السلام — السيرة القيادية",
@@ -66,20 +66,20 @@
     "A source for public talks and community programming. Individual recordings will be cataloged after review.":"مصدر لمحاضرات وبرامج مجتمعية؛ ستفهرس التسجيلات بعد مراجعتها.",
     "A marriage preparation title attributed to Imam Magid in institutional profiles. Editions, authorship and publisher to be confirmed.":"كتاب عن الاستعداد للزواج، ورد اسمه في السير المؤسسية؛ تفاصيل الطبعة والتأليف والناشر بحاجة إلى توثيق.",
     "Public profile highlighting international dialogue and leadership activities.":"سيرة عامة تسلط الضوء على الحوار الدولي والأنشطة القيادية.",
-    "Georgetown Berkley Center ↗":"مركز بيركلي بجامعة جورجتاون ↗",
-    "Original podcast website ↗":"موقع البودكاست الأصلي ↗",
-    "Apple Podcasts ↗":"آبل بودكاست ↗",
-    "ADAMS Center ↗":"مركز آدامز ↗",
-    "Institutional bibliography ↗":"قائمة المؤلفات المؤسسية ↗",
-    "Original profile ↗":"السيرة الأصلية ↗",
-    "View original source ↗":"الاطلاع على المصدر الأصلي ↗",
+    "Georgetown Berkley Center ↗︎":"مركز بيركلي بجامعة جورجتاون ↗︎",
+    "Original podcast website ↗︎":"موقع البودكاست الأصلي ↗︎",
+    "Apple Podcasts ↗︎":"آبل بودكاست ↗︎",
+    "ADAMS Center ↗︎":"مركز آدامز ↗︎",
+    "Institutional bibliography ↗︎":"قائمة المؤلفات المؤسسية ↗︎",
+    "Original profile ↗︎":"السيرة الأصلية ↗︎",
+    "View original source ↗︎":"الاطلاع على المصدر الأصلي ↗︎",
     "A co-authored article indexed by its original publisher.":"مقال مشترك مفهرس لدى الناشر الأصلي.",
     "Selected external links, not a complete archive.":"روابط مختارة وليست أرشيفاً كاملاً.",
     "No records match these filters.":"لا توجد سجلات مطابقة.",
     "Editorial standards:":"المعايير التحريرية:",
     "These are selected external links, not a claim to represent every article, podcast, lecture, or event. Official authorization, rights review, metadata verification, and carefully reviewed translations remain necessary before a full public archive.":"هذه روابط مختارة من مصادر خارجية، وليست حصرًا لكل المقالات والمحاضرات والفعاليات. يجب الحصول على الاعتماد الرسمي والتحقق من الحقوق والبيانات والترجمات قبل إطلاق الأرشيف.",
     "Research-stage content drawn from named source organizations. Dates and participation should be reconfirmed with organizers. This is not an official announcement channel.":"معلومات أولية من الجهات المنظمة. يجب تأكيد التواريخ والمشاركة مع المنظمين. ليست هذه قناة إعلانات رسمية.",
-    "Read organizer's source ↗":"ملخص عربي للمصدر ↗",
+    "Read organizer's source ↗︎":"ملخص عربي للمصدر ↗︎",
     "Selected teaching programs and appearances from official organizer listings. Check the original event pages for final schedules.":"برامج تعليمية وفعاليات منتقاة من صفحات الجهات المنظمة. يُرجى مراجعة المواعيد الرسمية قبل الحضور.",
     "A curated press archive distinguishing official announcements, documented recognitions and independent reporting.":"أرشيف إعلامي منتقى يميز بين البيانات الرسمية والتكريمات الموثقة والتغطيات المستقلة.",
     "Events & Gatherings":"الفعاليات واللقاءات",
@@ -92,22 +92,22 @@
     "2017 Peace Education Prize":"جائزة التربية من أجل السلام لعام ٢٠١٧",
     "Appointment to the U.S. Commission on International Religious Freedom":"التعيين في اللجنة الأمريكية للحريات الدينية الدولية",
     "Back to Home":"العودة إلى الرئيسية",
-    "His Life ↗":"السيرة ↗","Scholarship & Media ↗":"العلم والمكتبة الإعلامية ↗",
+    "His Life ↗︎":"السيرة ↗︎","Scholarship & Media ↗︎":"العلم والمكتبة الإعلامية ↗︎",
     "Unofficial website proposal pending authorization. Linked materials belong to their original publishers.":"مقترح لموقع غير رسمي قيد الاعتماد. المحتوى المرتبط يعود لناشريه الأصليين.",
-    "Explore his journey ↗":"استكشف مسيرته ↗","Explore news & milestones ↗":"الأخبار والمحطات ↗",
-    "See the event archive ↗":"تصفح أرشيف الفعاليات ↗",
-    "View all resources ↗":"عرض جميع المصادر ↗",
-    "Explore the publications index ↗":"تصفح فهرس المنشورات ↗",
-    "Browse the collection ↗":"تصفح المجموعة ↗",
+    "Explore his journey ↗︎":"استكشف مسيرته ↗︎","Explore news & milestones ↗︎":"الأخبار والمحطات ↗︎",
+    "See the event archive ↗︎":"تصفح أرشيف الفعاليات ↗︎",
+    "View all resources ↗︎":"عرض جميع المصادر ↗︎",
+    "Explore the publications index ↗︎":"تصفح فهرس المنشورات ↗︎",
+    "Browse the collection ↗︎":"تصفح المجموعة ↗︎",
     "FROM SUDAN TO NORTHERN VIRGINIA":"من السودان إلى شمال فيرجينيا",
     "FEATURED CONVERSATIONS":"حوارات مختارة",
     "THE JOURNEY CONTINUES":"المسيرة مستمرة",
     "A CONCEPT FOR THE FUTURE":"تصور للمستقبل",
     "FEATURED LIBRARY":"مكتبة مختارة",
-    "Explore his leadership ↗":"استكشف قيادته ↗",
-    "Discover the fuller story ↗":"اقرأ القصة الكاملة ↗",
-    "Read his full biography ↗":"اقرأ سيرته الكاملة ↗",
-    "Georgetown interview ↗":"مقابلة جورجتاون ↗",
+    "Explore his leadership ↗︎":"استكشف قيادته ↗︎",
+    "Discover the fuller story ↗︎":"اقرأ القصة الكاملة ↗︎",
+    "Read his full biography ↗︎":"اقرأ سيرته الكاملة ↗︎",
+    "Georgetown interview ↗︎":"مقابلة جورجتاون ↗︎",
     "Family":"الأسرة",
     "DESIGN CONCEPT · NOT YET AN OFFICIAL OR ENDORSED WEBSITE":"تصور أولي للتصميم · الموقع غير رسمي ولم يحصل بعد على اعتماد",
     "CONCEPT PROPOSAL · NOT AN OFFICIAL OR ENDORSED WEBSITE":"مقترح تصميم · غير رسمي ولم يحصل بعد على اعتماد",
@@ -150,7 +150,7 @@
     while(walker.nextNode()) {
       const node=walker.currentNode;
       if(!node.parentElement || /SCRIPT|STYLE|NOSCRIPT/.test(node.parentElement.tagName)) continue;
-      if(node.parentElement.closest("[data-i], [data-en]")) continue;
+      if(node.parentElement.closest("[data-i], [data-en], .brand, .photo-tag")) continue;
       if(node.parentElement.closest(".lang-note")) continue;
       nodes.push(node);
     }
@@ -212,7 +212,7 @@
       :"This is an editorial overview, not a complete authorized translation of the publisher's content.";
     const link=document.querySelector("#source-original");
     link.href=s.url;link.target="_blank";link.rel="noopener noreferrer";
-    link.textContent=locale==="ar"?(s.language==="mixed"?"فتح المصدر الأصلي (قد يختلف المحتوى لغوياً) ↗":"فتح المصدر الأصلي باللغة الإنجليزية ↗"):"Read the original publisher's page ↗";
+    link.textContent=locale==="ar"?(s.language==="mixed"?"فتح المصدر الأصلي (قد يختلف المحتوى لغوياً) ↗︎":"فتح المصدر الأصلي باللغة الإنجليزية ↗︎"):"Read the original publisher's page ↗︎";
     document.querySelector("#source-back").textContent=locale==="ar"?"العودة إلى الموقع ←":"← Back to website";
     document.querySelector("#source-back").href="index.html"+(locale==="ar"?"?lang=ar":"");
   }
