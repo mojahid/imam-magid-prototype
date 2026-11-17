@@ -17,4 +17,16 @@ impactEvidence2:'جائزة الحبري للتربية من أجل السلام
 impactEvidence3:'التعيين في لجنة الحريات الدينية الدولية الأمريكية'
 });
 Object.assign(strings,{scholarFeatureLabel:'استكشف المجموعة',scholarFeatureTitle:'مكتبة من الدروس والحوارات والتأملات',scholarFeatureDesc:'تعرّف على المحاضرات المسجلة والمقابلات والبودكاست والمنشورات المختارة في فهرس منظم.',scholarFeatureAction:'تصفح المكتبة ↗',topicDetail1:'فهم الوحي وتدبر معانيه',topicDetail2:'بناء علاقات صحية وحياة أسرية مستقرة',topicDetail3:'تزكية النفس وتنمية الإيمان والغاية',topicDetail4:'الخدمة والرحمة وبناء التفاهم'});
+Object.assign(strings,{
+journeyNoteTag:'من سيرته كما رواها',
+journeyNoteTitle:'طفولة شكلها العلم وخدمة الناس',
+journeyNoteText:'في حوار مع جامعة جورجتاون، روى الإمام ماجد ذكرياته عن النشأة على ضفاف النيل، وتأثير علم والده، والظروف التي جاءت بأسرته إلى أمريكا.',
+journeyNoteLink:'اقرأ السيرة الكاملة ↗︎',
+mediaVisualTag:'سلسلة حوارات مختارة',
+mediaVisualFoot:'بودكاست · المصدر الأصلي',
+mediaMoreLabel:'المزيد من المصادر',
+mediaMoreText:'هل تبحث عن مقالات أو مؤلفات أو تسجيلات أخرى؟ اكتشف فهرساً متنامياً من المصادر الموثقة.',
+mediaMoreAction:'تصفح المجموعة الكاملة ↗︎',
+pastConference:'مؤتمر حديث · مركز آدامز'
+});
 const original=new Map([...document.querySelectorAll('[data-i]')].map(el=>[el,el.innerHTML]));let ar=false;document.querySelector('#lang')?.addEventListener('click',()=>{ar=!ar;document.documentElement.lang=ar?'ar':'en';document.documentElement.dir=ar?'rtl':'ltr';document.querySelector('#lang').textContent=ar?'English':'العربية';for(const [el,english] of original){el.innerHTML=ar?(strings[el.dataset.i]||english):english}});const contact=document.getElementById('contactBtn');contact?.addEventListener('click',e=>{e.preventDefault();alert(ar?'ستتاح بيانات التواصل بعد الاعتماد الرسمي.':'Contact details will be added after official authorization.')});
