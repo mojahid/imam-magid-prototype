@@ -109,6 +109,33 @@
     "Read his full biography ↗":"اقرأ سيرته الكاملة ↗",
     "Georgetown interview ↗":"مقابلة جورجتاون ↗",
     "Family":"الأسرة",
+    "DESIGN CONCEPT · NOT YET AN OFFICIAL OR ENDORSED WEBSITE":"تصور أولي للتصميم · الموقع غير رسمي ولم يحصل بعد على اعتماد",
+    "CONCEPT PROPOSAL · NOT AN OFFICIAL OR ENDORSED WEBSITE":"مقترح تصميم · غير رسمي ولم يحصل بعد على اعتماد",
+    "Concept proposal · Not yet officially authorized":"تصور مقترح · لم يحصل بعد على اعتماد رسمي",
+    "HIS LIFE · A LIVING STORY":"السيرة · قصة مستمرة",
+    "Portrait supplied for concept presentation":"صورة مخصصة لعرض التصور المقترح",
+    "01 · SUDAN · EARLY LIFE":"٠١ · السودان · النشأة",
+    "02 · SCHOLARSHIP & EDUCATION":"٠٢ · العلم والتعليم",
+    "03 · 1987–1988 · UNITED STATES":"٠٣ · ١٩٨٧–١٩٨٨ · الولايات المتحدة",
+    "04 · 1997 · NORTHERN VIRGINIA":"٠٤ · ١٩٩٧ · شمال فيرجينيا",
+    "05 · NATIONAL LEADERSHIP":"٠٥ · القيادة الوطنية",
+    "06 · INTERFAITH & INTERNATIONAL WORK":"٠٦ · العمل الدولي والحوار بين الأديان",
+    "07 · THE LIVING ARCHIVE":"٠٧ · الأرشيف الحي",
+    "Explore his teachings":"استكشف دروسه",
+    "CONFERENCE · ADAMS":"مؤتمر · آدامز",
+    "FRIDAY SERIES · ADAMS":"سلسلة الجمعة · آدامز",
+    "MONDAY SERIES · ADAMS":"سلسلة الاثنين · آدامز",
+    "RECOGNITION · EL-HIBRI FOUNDATION":"تكريم · مؤسسة الحبري",
+    "PUBLIC SERVICE · USCIRF":"خدمة عامة · لجنة الحريات الدينية",
+    "INTERVIEW · GEORGETOWN":"مقابلة · جورجتاون",
+    "NOV 13–15, 2026 · STERLING, VA":"١٣–١٥ نوفمبر ٢٠٢٦ · ستيرلينغ، فيرجينيا",
+    "FRIDAYS · 7:00 PM ET":"الجمعة · ٧:٠٠ مساءً بتوقيت شرق أمريكا",
+    "MONDAYS · FALL 2026":"الاثنين · خريف ٢٠٢٦",
+    "AUGUST 12, 2022":"١٢ أغسطس ٢٠٢٢",
+    "JANUARY 27, 2022":"٢٧ يناير ٢٠٢٢",
+    "2017":"٢٠١٧",
+    "Georgetown Berkley Center — Interview (January 2022)":"مركز بيركلي بجامعة جورجتاون — مقابلة (يناير ٢٠٢٢)",
+    "Research and design proposal · Not yet officially authorized or endorsed.":"مقترح بحث وتصميم · لم يعتمد رسمياً بعد.",
     "IMAM MOHAMED MAGID":"الإمام محمد ماجد"
   };
   const pathname = location.pathname.split("/").pop() || "index.html";
@@ -123,6 +150,8 @@
     while(walker.nextNode()) {
       const node=walker.currentNode;
       if(!node.parentElement || /SCRIPT|STYLE|NOSCRIPT/.test(node.parentElement.tagName)) continue;
+      if(node.parentElement.closest("[data-i], [data-en]")) continue;
+      if(node.parentElement.closest(".lang-note")) continue;
       nodes.push(node);
     }
     for(const node of nodes){
@@ -142,6 +171,7 @@
   }
   function updateLinks(ar){
     for(const a of document.querySelectorAll('a[href]')){
+      if(a.hasAttribute("data-original-source")) continue;
       if(!savedLinks.has(a))savedLinks.set(a,{href:a.getAttribute("href"),target:a.getAttribute("target"),rel:a.getAttribute("rel")});
       const original=savedLinks.get(a);
       const href=original.href;
@@ -204,6 +234,8 @@
       }
     }
   }
+  // Cache English text before any legacy language handler changes DOM nodes.
+  if(!useSourcePage) translateText(false);
   if(useSourcePage){
     const button=document.querySelector("#source-language");
     button.addEventListener("click",()=>{apply(locale!=="ar");button.textContent=locale==="ar"?"English":"العربية";});
@@ -213,7 +245,7 @@
     // Use the page's existing button so its legacy data-i / data-en translation remains active.
     if(legacyButton) {
       legacyButton.addEventListener("click",()=>apply(document.documentElement.lang==="ar"));
-      if(locale==="ar"){legacyButton.click();apply(true,false);}
+      if(locale==="ar"){legacyButton.click();}
       else apply(false,false);
     }else apply(locale==="ar",false);
   }
