@@ -147,3 +147,28 @@ html[dir=rtl] .brand-wordmark small{text-align:right}
 .brand-wordmark strong{font-size:10px}
 .brand-wordmark small{font-size:12px}
 }
+
+
+/* Shared Arabic layout and legibility adjustments — biography, media, events, news */
+html[dir=rtl] body{font-family:"Noto Naskh Arabic","DM Sans",sans-serif;font-size:18px;line-height:1.85}
+html[dir=rtl] .nav,html[dir=rtl] .wrap,html[dir=rtl] .library-hero,html[dir=rtl] .library-body,html[dir=rtl] .bio-hero,html[dir=rtl] .bio-content,html[dir=rtl] .editorial-hero,html[dir=rtl] .editorial-body{text-align:right}
+html[dir=rtl] .brand{direction:ltr}
+html[dir=rtl] .brand-wordmark{direction:ltr}
+html[dir=rtl] .brand-wordmark small{direction:rtl;text-align:left}
+html[dir=rtl] .library-hero h1,html[dir=rtl] .bio-hero h1,html[dir=rtl] .editorial-hero h1,html[dir=rtl] .bio-chapter h2,html[dir=rtl] .lib-card h2,html[dir=rtl] .editorial-card h2{font-family:"Noto Naskh Arabic",serif;letter-spacing:0;line-height:1.6}
+html[dir=rtl] .library-hero p,html[dir=rtl] .bio-chapter p,html[dir=rtl] .editorial-card p,html[dir=rtl] .lib-card p{font-size:16px;line-height:1.8}
+html[dir=rtl] .lib-type,html[dir=rtl] .editorial-card .tag{letter-spacing:0;font-size:12px}
+html[dir=rtl] .lib-card-body,html[dir=rtl] .editorial-card,html[dir=rtl] .bio-chapter,html[dir=rtl] .bio-index{text-align:right}
+html[dir=rtl] .bio-era{letter-spacing:0;font-size:13px}
+html[dir=rtl] .bio-index a{font-size:15px}
+html[dir=rtl] .editorial-card.featured .date{text-align:right}
+html[dir=rtl] .editorial-note{font-size:15px;line-height:1.7}
+html[dir=rtl] .footer-links{direction:rtl}
+@media(max-width:740px){
+html[dir=rtl] .library-hero h1,html[dir=rtl] .bio-hero h1,html[dir=rtl] .editorial-hero h1{font-size:clamp(32px,8vw,42px);line-height:1.5}
+html[dir=rtl] .lib-card h2{font-size:19px}
+html[dir=rtl] .lib-card p{font-size:14px}
+html[dir=rtl] .bio-chapter p{font-size:16px}
+html[dir=rtl] .editorial-card h2{font-size:24px}
+html[dir=rtl] .editorial-card p{font-size:15px}
+}
