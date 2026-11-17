@@ -311,3 +311,63 @@ html[dir=rtl] .scholarship-feature-title{font-family:"Noto Naskh Arabic",serif;l
 .scholarship-chevron::after{content:"";position:absolute;width:17px;height:1.7px;right:3px;top:12px;background:currentColor;transform:rotate(-45deg);transform-origin:right center}
 html[dir=rtl] .scholarship-chevron{transform:scaleX(-1)}
 .scholarship-row:focus-visible{outline:2px solid #d6e9d2;outline-offset:4px}
+
+
+/* V8: concise, bilingual-first presentation homepage */
+.journey-note{display:grid;grid-template-columns:.8fr 1.2fr;gap:38px;border-top:1px solid #d6e0d8;margin-top:28px;padding:27px 0 0;align-items:start}
+.journey-note-eyebrow{font-size:10px;font-weight:700;letter-spacing:1.6px;color:#7b9782}
+.journey-note h3{font:normal 23px/1.4 "Libre Baskerville",Georgia,serif;color:var(--forest);margin:12px 0}
+.journey-note p{color:#607367;font-size:15px;line-height:1.75;margin:0 0 12px}
+.media .feature-art{background:#dfe9e1;color:#204c40;min-height:270px;display:flex;flex-direction:column;justify-content:space-between;gap:26px;padding:31px 29px;position:relative;overflow:hidden}
+.feature-art:after{content:"";position:absolute;right:-55px;top:-50px;height:290px;width:290px;border:1px solid #c1d1c3;border-radius:50%;pointer-events:none}
+.feature-art-kicker,.feature-art-footer{font-size:10px;letter-spacing:1.4px;font-weight:700;color:#648570}
+.feature-art strong{font:normal clamp(33px,3.8vw,49px)/1.24 "Libre Baskerville",Georgia,serif;letter-spacing:-1px;color:#204c40;z-index:1}
+.feature-art strong em{font-weight:400}
+.side-index{width:58px;height:58px;display:grid;place-items:center;border:1px solid #ccdbd0;border-radius:50%;color:#5f856d;font:20px "Libre Baskerville",serif}
+.media-library-link{margin-top:27px;border-top:1px solid #d9e4dc;padding-top:19px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
+.media-library-link>span{font-size:10px;letter-spacing:1.5px;color:#799584;font-weight:700}
+.media-library-link p{flex:1;min-width:220px;font-size:13px;color:#6b7e71;margin:0}
+.media-library-link .text-link{white-space:nowrap}
+html[dir=rtl] body{font-family:"Noto Naskh Arabic","DM Sans",sans-serif;font-size:17px;line-height:1.85}
+html[dir=rtl] p{line-height:1.85}
+html[dir=rtl] .container,html[dir=rtl] section,html[dir=rtl] .hero-copy,html[dir=rtl] .intro-aside,html[dir=rtl] .feature-info,html[dir=rtl] .leadership-list,html[dir=rtl] .legacy-list,html[dir=rtl] footer{text-align:right}
+html[dir=rtl] .brand{direction:ltr}
+html[dir=rtl] .brand-wordmark{direction:ltr}
+html[dir=rtl] .brand-wordmark small{direction:rtl;text-align:left}
+html[dir=rtl] .section-intro,html[dir=rtl] .journey-note,html[dir=rtl] .leadership-layout,html[dir=rtl] .legacy-layout,html[dir=rtl] .events-top{direction:rtl}
+html[dir=rtl] .eyebrow{letter-spacing:0;font-size:13px}
+html[dir=rtl] .section h2,html[dir=rtl] .journey-note h3,html[dir=rtl] .feature-art strong{font-family:"Noto Naskh Arabic",serif;letter-spacing:0;line-height:1.48}
+html[dir=rtl] .hero h1,html[dir=rtl] .media h2{line-height:1.5}
+html[dir=rtl] .journey-note p,html[dir=rtl] .scholarship-head>p,html[dir=rtl] .scholarship-row-text small,html[dir=rtl] .feature-info p{font-size:16px}
+html[dir=rtl] .moment:not(:first-child){padding-left:0;padding-right:23px}
+html[dir=rtl] .moment:not(:first-child):before{left:auto;right:23px}
+html[dir=rtl] .moment:first-child:before{left:auto;right:0}
+html[dir=rtl] .moment{border-right:0;border-left:1px solid #e4eae3}
+html[dir=rtl] .moment:last-child{border-left:0}
+html[dir=rtl] .feature-art strong{font-size:38px}
+html[dir=rtl] .source-note{font-size:13px}
+html[dir=rtl] .scholarship-feature-action{font-size:16px}
+html[dir=rtl] .scholarship-row-text strong{font-size:19px}
+html[dir=rtl] .photo-tag{direction:ltr}
+html[dir=rtl] .media-library-link .text-link{white-space:normal}
+@media(max-width:740px){
+.journey-note{grid-template-columns:1fr;gap:4px;padding-top:22px;margin-top:22px}
+.journey-note h3{font-size:21px}
+.journey-note p{font-size:14px}
+.media .feature-art{min-height:225px;padding:24px}
+.feature-art strong{font-size:33px}
+.side-index{width:44px;height:44px;font-size:17px}
+.media-library-link{display:block}
+.media-library-link p{margin:7px 0 11px}
+.media-library-link .text-link{white-space:normal}
+html[dir=rtl] .hero h1{font-size:clamp(36px,8.3vw,46px)}
+html[dir=rtl] .section h2{font-size:clamp(31px,7.3vw,42px)}
+html[dir=rtl] .brand-wordmark{direction:ltr}
+html[dir=rtl] .moment{padding-right:0}
+html[dir=rtl] .moment:nth-child(2){border-left:0}
+html[dir=rtl] .moment:nth-child(3){padding-right:0}
+html[dir=rtl] .moment:nth-child(3):before{right:0}
+html[dir=rtl] .moment:nth-child(4){border-left:0}
+html[dir=rtl] .scholarship-row-text strong{font-size:18px}
+html[dir=rtl] .scholarship-row-text small{font-size:14px}
+}
